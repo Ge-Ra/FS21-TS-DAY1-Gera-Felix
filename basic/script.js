@@ -8,6 +8,6 @@ for (let val of arr) {
     document.getElementById("multi").innerHTML += "<br>";
     for (let val2 of arr) {
         let multi = val2 * val;
-        document.getElementById("multi").innerHTML += `${val2} x ${val} = ${multi} <br><br>`;
+        document.getElementById("multi").innerHTML += `${val2} x ${val} = ${multi} <br>`;
     }
 }
